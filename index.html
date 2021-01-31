@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="icon" href="download.jpeg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+	<title>Flappy AI</title>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <style>
+    .parallaxfour {
+ 
+      background-image: url("https://www.abc.net.au/news/image/5974824-3x2-940x627.jpg");
+ 
+      min-height: 500px;
+ 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+  <style>
+    .parallaxthree {
+ 
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbo4fhUtGLKmRcgu1_o0FOjTjM1xxaltIYZw&usqp=CAU");
+ 
+      min-height: 500px;
+ 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+ <style>
+   .parallax {
+
+     background-image: url("https://static1.squarespace.com/static/5b46d42885ede1f0c9df6a09/t/5d9f3b6165c04a6e6822e41b/1570716539028/flappybirds.gif?format=1500w");
+
+     min-height: 500px;
+
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+</style> 
+ <style>
+   .parallaxone {
+
+     background-image: url("https://cdn.vox-cdn.com/thumbor/abRKMaWaIW8E3ItaKQIn-6o420A=/148x0:1768x1080/1400x788/filters:focal(148x0:1768x1080):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/36471222/91mQygmODzL-2040.0.jpg");
+
+     min-height: 500px;
+
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+ </style>
+  <style>
+    .parallaxtwo {
+ 
+      background-image: url("https://techcrunch.com/wp-content/uploads/2014/02/flappy.gif?w=430&h=230&crop=1");
+ 
+      min-height: 500px;
+ 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>  
+<style>
+
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active">Flappy Bird</a>
+  <a href="https://spck.io/run/idb/Wonder%20Project%20Info/index.html">Information</a>
+  <a href=""></a>
+</div>
+  <div style="background-color:#42f54e;">
+  	<marquee scrollamount="25"><h2 style="text-align: center ">Brody's Wonder Project 2021: Accuracy/Variation in Genetics-Based Multiobjective and Single-objective Machine Learning Algorithms
+  	</h2></marquee></div>
+<div style="background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAJ1BMVEWy4v/F/8a+9/+o/9rV/+Cx4P+/+f/A9v+m/9ek/9rY/+DW/+LE/8T+aFxIAAABCElEQVR4nO3QQQGAIAAEMERARfrnpcN9+GwRVkqkj5p43jvxzZb41xXJSpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4OXuyAdPHrEGNCAzvAAAAAElFTkSuQmCC'); border: 3px solid black;">
+  <div style="margin-left: 420px; margin-top: 20px">
+	<canvas id="flappy" width="500" height="512" style="border:black 3px solid;"></canvas> <br/></div>
+	<div style="margin-left: 570px">
+	<button onclick="speed(60)">x1</button> 
+	<button onclick="speed(120)">x2</button> 
+	<button onclick="speed(180)">x3</button> 
+	<button onclick="speed(300)">x5</button> 
+	<button onclick="speed(0)">ZOOM!</button> 
+	<br/>
+	</div>
+	<script src = "Neuroevolution.js"></script>
+	<script src = "game.js"></script>
+	</div>
+<div style="background-color: #1cff8a">
+	</div>
+<div style="background-color: #3dff57">
+  <div class="parallaxtwo"></div>
+	<a href="https://docs.google.com/spreadsheets/d/1znDEMWIgNslY583OWAwegp6gzMCyvPzSVJICvV3M9BE/edit?usp=sharing"><h1 style="text-align: center;">Graph and Data from Trials</h1></a>
+			<div class="parallaxone"></div>
+	<a href="https://docs.google.com/document/d/1ZZ1YbCR5t2s6QA5Oslu1uJxPtXVEu3nYhCYESeEjWR0/edit?usp=sharing"><h1 style="background-color: #83ff73; text-align: center;">Algorithms Parameter Defaults and Information</h1></a>
+	<div class="parallaxfour"></div>
+	<a href="https://docs.google.com/document/d/1vIHEn0TZgI7GFM06hiud-dvWa-IMP47F7M7HYiE1UV4/edit?usp=sharing"><h1 style="background-color: #dbffd6; text-align: center;">Genetic-Based Multifunctional Machine Learning Algorithm Code</h1> </a>
+	<div class="parallax"></div>
+	
+	<a href="https://docs.google.com/document/d/1ecePtvxAX6t0_D8O3c0heBluyN4Sc5lX13c9CStEgsg/edit?usp=sharing"><h1 style="background-color: #00f02c; text-align: center;">Flappy Bird JavaScript Code</h1></a>
+	<div class="parallaxthree"></div>
+	<a href="https://docs.google.com/document/d/1-ub4L4QEHWpoP0NHeAkRvb5yx9k6bCikye3Cy9-vDsk/edit?usp=sharing"><h1 style="background-color: #00ffaa; text-align: center;">Webpage HTML Code</h1></a>
+
+<div style="background-color: #00ff88"><marquee scrollamount="25"><h2>Webpage Designed by Brody Blask, 2021 8th Grade Infinite</h2></marquee>
+
+
+</body>
+</html>
